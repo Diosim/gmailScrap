@@ -1,15 +1,5 @@
-# Converted to Python3
-# Download ALL attachments from GMail
-# 1. Script needs to be run via console not in an IDE, getpass.getpass() will fail otherwise.
-#    https://docs.python.org/3/library/getpass.html
-# 2. Make sure you have IMAP enabled in your GMail settings.
-#    https://support.google.com/mail/troubleshooter/1668960?hl=en
-# 3. If you are using 2 step verification you may need an APP Password.
-#    https://support.google.com/accounts/answer/185833
-# 4. Reference information for GMail IMAP extension can be found here.
-#    https://developers.google.com/gmail/imap_extensions
-
-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 import email
 import hashlib
 import getpass
@@ -23,7 +13,7 @@ fileNameHashes = defaultdict(set)
 NewMsgIDs = set()
 ProcessedMsgIDs = set()
 
-
+#File to save progress of downloaded mails, if it doesnt exist already it gets created
 def recover(resume_file):
     if os.path.exists(resume_file):
         print('Recovery file found resuming...')
