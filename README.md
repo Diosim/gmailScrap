@@ -9,9 +9,9 @@ Download ALL attachments from GMail
     https://developers.google.com/gmail/imap_extensions
 
  To add:
--download each gmail to each own folder
--message body: scrap and parse all needed info
+ -download each gmail to each own folder
+ -message body: scrap and parse all needed info
     -copy the body to a .txt file
--
+    -
 
 
