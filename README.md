@@ -8,10 +8,9 @@ Download ALL attachments from GMail
 4. Reference information for GMail IMAP extension can be found here
     https://developers.google.com/gmail/imap_extensions
 
- To add:
- -download each gmail to each own folder
- -message body: scrap and parse all needed info
-    -copy the body to a .txt file
-    -
 
+
+ To add:
+-download each gmail to a separate folder [named by the subject]   
+-copy body of the gmail to .txt and parse info
 
