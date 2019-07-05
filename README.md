@@ -11,6 +11,7 @@ Download ALL attachments from GMail
 
 
  To add:
+ 
 -download each gmail to a separate folder [named by the subject]   
 -copy body of the gmail to .txt and parse info
 
