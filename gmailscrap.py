@@ -12,6 +12,12 @@ import os
 from collections import defaultdict, Counter
 import platform
 
+#for body parsing
+import base64
+from apiclient import errors
+
+
+
 fileNameCounter = Counter()
 fileNameHashes = defaultdict(set)
 NewMsgIDs = set()
@@ -112,9 +118,7 @@ def save_attachments(message, directory):
                                                                                            ftype=type(payload)))
                 continue
 #####get message body
-import base64
-import email
-from apiclient import errors
+
 
 def GetMessage(service, user_id, msg_id):
 
