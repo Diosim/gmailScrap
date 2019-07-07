@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+#need to check gmail api https://developers.google.com/gmail/api/v1/reference/users/messages/get 
+
+
 import email
 import hashlib
 import getpass
